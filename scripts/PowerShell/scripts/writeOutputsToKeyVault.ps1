@@ -1,6 +1,0 @@
-Set-AzureKeyVaultSecret -VaultName $env:keyVaultName -Name 'sqlServerFullyQualifiedDomainName' -SecretValue (ConvertTo-SecureString $env:sqlServerFullyQualifiedDomainName -AsPlainText -Force)
-Set-AzureKeyVaultSecret -VaultName $env:keyVaultName -Name 'sqlServerAdminLogin' -SecretValue (ConvertTo-SecureString $env:sqlServerAdminLogin -AsPlainText -Force)
-Set-AzureKeyVaultSecret -VaultName $env:keyVaultName -Name 'sqlDBName' -SecretValue (ConvertTo-SecureString $env:sqlDBName -AsPlainText -Force)
-Set-AzureKeyVaultSecret -VaultName $env:keyVaultName -Name 'sqlAnalyticsFullyQualifiedDomainName' -SecretValue (ConvertTo-SecureString $env:sqlAnalyticsFullyQualifiedDomainName -AsPlainText -Force)
-Set-AzureKeyVaultSecret -VaultName $env:keyVaultName -Name 'sqlAnalyticsServerAdminLogin' -SecretValue (ConvertTo-SecureString $env:sqlAnalyticsServerAdminLogin -AsPlainText -Force)
-Set-AzureKeyVaultSecret -VaultName $env:keyVaultName -Name 'sqlAnalyticsDBName' -SecretValue (ConvertTo-SecureString $env:sqlAnalyticsDBName -AsPlainText -Force)
