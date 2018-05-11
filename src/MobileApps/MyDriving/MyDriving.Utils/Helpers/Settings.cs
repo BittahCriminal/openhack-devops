@@ -28,19 +28,15 @@ namespace MyDriving.Utils
 
         const string LoginAccountKey = "login_account";
 
-
         const string DeviceIdKey = "device_id";
 
         const string HostNameKey = "host_name";
 
         const string DeviceConnectionStringKey = "device_connection_string";
 
-
         const string MetricDistanceKey = "metric_distance";
 
-
         const string MetricUnitsKey = "metric_units";
-
 
         const string FirstRunKey = "first_run";
 
